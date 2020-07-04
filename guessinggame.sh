@@ -1,4 +1,4 @@
-filecount=$(ls -1 | wc -l) 
+filecount=$(ls -1A | wc -l) 
 
 function guessing {
 	echo "Guess how many files are in this directory"
